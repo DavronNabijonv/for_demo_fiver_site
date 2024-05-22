@@ -1,0 +1,21 @@
+
+.width{
+    width: 1400px;
+    margin: auto;
+}
+
+// navbar background color 
+.back_color{
+    background-color: white;
+}
+
+// when open drop down change icon position
+.rotate{
+    transform: rotate(180deg);
+}
+
+@media(max-width:1400){
+    .width{
+        width: auto;
+    }
+}

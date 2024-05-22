@@ -1,0 +1,145 @@
+.navbar {
+  width: 100%;
+}
+
+.for_padding {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+  .logo{
+    font-size: 40px;
+    color: white;
+    width: 250px;
+    position: relative;
+    svg{
+        scale: 2.3;    
+    }
+  }
+  .logo::after{
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(9, 95, 13);
+    top: 29px;
+    left: 58px;
+    width: 8.8px;
+    height: 8.8px;
+ }
+}
+
+// when scroll window after show
+.for_search_in_scrol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(171, 170, 170, 0.868);
+    border: 1px solid rgba(171, 170, 170, 0.868);
+    padding: 8px 15px;
+  }
+  button {
+    font-size: 18px;
+    padding: 8px 10px;
+    color: white;
+    background-color: #252525;
+  }
+  button:hover {
+    background-color: #252525cb;
+  }
+}
+// ----- over scroll input -----
+
+// main navbar tolls
+.navbar_tools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .lang,
+  .be_seller {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+  }
+  .lang,
+  .be_seller:hover {
+    cursor: pointer;
+  }
+}
+
+.drop_1,
+.drop_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 10px 18px;
+    span {
+      margin-top: 5px;
+      text-align: center;
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+  p:hover {
+    cursor: pointer;
+  }
+}
+
+// after done main part of navbar
+// I going to do this part
+.drop_1_items,
+.drop_2_items,
+.nav_bottom {
+  display: none;
+}
+//  ---- after few moment---
+
+.register_grp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5px;
+  .sign_in,
+  .join {
+    font-size: 16px;
+    font-weight: 550;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: none;
+    background: none;
+    color: white;
+  }
+  .sign_in {
+    border: none;
+  }
+  .sign_in:hover {
+    cursor: pointer;
+  }
+  .join {
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
+  .join:hover {
+    cursor: pointer;
+    background-color: #00aa5a;
+    background: #00aa5a;
+    border-color: #00aa5a;
+  }
+}
+// ---- over main navbar tools ----
