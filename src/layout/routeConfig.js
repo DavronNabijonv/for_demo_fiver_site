@@ -1,4 +1,4 @@
-import MainPage from "../pages/main_page_parts";
+import MainPage from "../pages/main_page";
 
 
 export const route = [
